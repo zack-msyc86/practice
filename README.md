@@ -1,4 +1,4 @@
-# Coding Knowledge Base
+# practice of zack-msyc86
 
 コーディングの知見を蓄積・共有するためのリポジトリ。
 人にも AI にも読みやすい構造で管理する。
