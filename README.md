@@ -11,7 +11,6 @@ zack-msyc86 個人のコーディング知見集。
 ## ドキュメント一覧
 
 ### coding-style/
-- [declarative.md](coding-style/declarative.md) — 宣言的・関数型スタイル
 - [result-type.md](coding-style/result-type.md) — Result 型
 
 ### react/
@@ -19,11 +18,6 @@ zack-msyc86 個人のコーディング知見集。
 - [single-component-per-file.md](react/single-component-per-file.md) — Single Component Per File
 - [avoid-use-effect.md](react/avoid-use-effect.md) — useEffect の使用を避ける
 - [no-generics.md](react/no-generics.md) — コンポーネントにジェネリクスを使わない
-
-### typescript/
-- [esm-only.md](typescript/esm-only.md) — ESM のみ
-- [naming-convention.md](typescript/naming-convention.md) — 命名規則
-- [no-any-type.md](typescript/no-any-type.md) — `any` 型の使用禁止
 
 ### frontend/
 - [nextjs.md](frontend/nextjs.md) — フロントエンド: Next.js
