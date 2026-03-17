@@ -8,3 +8,7 @@ GraphQL スキーマはコードファーストで定義する。スキーマフ
 スキーマ定義（SDL）と resolver 実装が分離しているため、resolver が受け取る parent の型を正しく推論できず、any や手動の型注釈に頼ることになる。
 
 コードファースト（[Pothos](../libraries/pothos/) 等）では型定義と resolver が同じコード上にあるため、parent の型が自然に推論される。
+
+## ParentType は GraphQL の関心で定義する
+
+DB モデリングと GraphQL モデリングは別の関心。ORM のテーブル型を ParentType に一括マッピングしない。たまたま一致する場合は都度そう書くが、自動的に対応づけない。
